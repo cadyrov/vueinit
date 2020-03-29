@@ -1,0 +1,85 @@
+body, a, h1, h2, h3, h4, h5, h6, p, td, th, input[type="text"], select, option, .btn{
+    font-family: "HelveticaNeueLTW1G-Cn", serif;
+}
+.table td, .table th {
+    padding: .15rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.navbar{
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 0px;
+    background-color: #6670a3 !important;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: 42px;
+    border-radius: 0px;
+    border: solid black 0px;
+    border-bottom: solid gray 1px;
+}
+
+select.form-control{
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+    -webkit-border-radius: 0;  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -moz-border-radius: 0;  /* Firefox 1-3.6 */
+    border-radius: 0;
+}
+
+input.form-control{
+    border-radius: 0px;
+    border: solid black 0px;
+    border-bottom: solid gray 1px;
+}
+input.form-control:focus, select.form-control:focus, select.form-control:active{
+    border-bottom: solid #D03D72 2px;
+}
+input {outline:none !important;}
+
+.btn{
+    border-radius: 0px;
+}
+
+
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+    background-color: #D03D72 !important;
+    outline: none !important;
+}
+
+a.active.focus,
+a.active:focus,
+a.focus,
+a:active.focus,
+a:active:focus,
+a:focus,
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+    outline: 0!important;
+    outline-color: transparent!important;
+    outline-width: 0!important;
+    outline-style: none!important;
+    box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
+}
+
+@font-face {
+    font-family: "HelveticaNeueLTW1G-Cn";
+    src: url("../fonts/HelveticaNeueLTW1G-Cn.eot");
+    src: url("../fonts/HelveticaNeueLTW1G-Cn.woff") format("woff");
+    src: url("../fonts/HelveticaNeueLTW1G-Cn.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
